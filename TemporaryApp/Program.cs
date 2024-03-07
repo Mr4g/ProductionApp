@@ -20,7 +20,7 @@ static void AddMachine(IRepository<Machine> machineRepository)
 
 static void AddPrinter(IWriteRepository<Printer> printerRepository)
 {
-    printerRepository.Add(new Printer { Name = "LX1", Manufacturer = "Brady", YearOfManufacture = 2010, KindOfLabel = "RFID"});
+    printerRepository.Add(new Printer { Name = "LX1", Manufacturer = "Brady", YearOfManufacture = 2015, KindOfLabel = "RFID"});
     printerRepository.Add(new Printer { Name = "LX2", Manufacturer = "Zebra", YearOfManufacture = 2015, KindOfLabel = "STANDARD"});
     printerRepository.Save();
 }
